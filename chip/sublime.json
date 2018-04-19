@@ -1,4 +1,6 @@
 {
 	"font_size": 16,
-	"ignored_packages":[]
+	"ignored_packages":[],
+	"show_encoding": true,
+	"show_line_endings": true
 }
