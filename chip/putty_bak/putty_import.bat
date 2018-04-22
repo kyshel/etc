@@ -1,0 +1,1 @@
+regedit /i "D:\putty_bak.reg"

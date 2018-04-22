@@ -1,0 +1,1 @@
+regedit /e "D:\putty_bak.reg" HKEY_CURRENT_USER\Software\SimonTatham
