@@ -1,0 +1,11 @@
+{
+	"font_size": 15,
+	"ignored_packages":
+	[
+	],
+	"rulers": [80],
+
+	"show_encoding": true,
+	"show_line_endings": true,
+
+}
