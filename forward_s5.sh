@@ -17,15 +17,15 @@
 
 
 if [ "$1" == "on" ]; then
-    service privoxy start
+    systemctl  start privoxy
     export http_proxy=http://127.0.0.1:8118
     export https_proxy=http://127.0.0.1:8118
 elif [ "$1" == "off" ]; then
-    service privoxy stop
+    systemctl  stop   privoxy
     export http_proxy=""
     export https_proxy=""
 elif [ "$1" == "status" ]; then
-    service privoxy status
+    systemctl  status privoxy
 elif [ "$1" == "log" ]; then
     echo 'parameter not set'
 elif [ "$1" == "test" ]; then
