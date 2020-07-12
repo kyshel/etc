@@ -33,6 +33,8 @@ elif [ "$1" == "test" ]; then
 else
     echo 'Please input argument: on,off,status'
 fi
+echo $http_proxy
+echo $https_proxy
 echo 'Now your ip is: '
 curl ipinfo.io
 echo ''

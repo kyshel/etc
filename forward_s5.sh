@@ -24,6 +24,7 @@ elif [ "$1" == "off" ]; then
     systemctl  stop   privoxy
     export http_proxy=""
     export https_proxy=""
+
 elif [ "$1" == "status" ]; then
     systemctl  status privoxy
 elif [ "$1" == "log" ]; then
@@ -35,4 +36,6 @@ else
 fi
 echo 'Now your ip is: '
 curl ipinfo.io
+echo $http_proxy
+echo $https_proxy
 echo ''
