@@ -1,0 +1,8 @@
+cd /root
+
+
+mv /root/etc /root/remote_etc
+
+echo 'export PATH=$PATH:/root/remote_etc'  >> /root/.bashrc
+
+su
