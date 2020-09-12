@@ -5,7 +5,7 @@
 some config files and shell scripts
 
 
-# precondition
+# deploy
 
 
 for ubuntu , run below:
@@ -37,3 +37,28 @@ echo 'export PATH=$PATH:/root/remote_etc'  > /etc/profile.d/remote_etc.sh
 su
 
 ```
+
+
+
+
+# text
+
+sublime text 
+```json
+{
+	"font_size": 15,
+	"ignored_packages":
+	[
+	],
+	"rulers": [80],
+
+	"show_encoding": true,
+	"show_line_endings": true,
+
+}
+```
+
+
+
+
+
